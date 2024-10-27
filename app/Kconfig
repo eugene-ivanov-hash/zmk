@@ -401,6 +401,10 @@ menu "Mouse Options"
 config ZMK_MOUSE
     bool "Enable ZMK mouse emulation"
 
+config ZMK_MOUSE_TICK_DURATION
+    int "Mouse tick duration in ms"
+    default 8
+
 #Mouse Options
 endmenu
 
