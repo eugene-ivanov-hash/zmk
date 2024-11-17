@@ -102,6 +102,7 @@ module.exports = {
           },
           collapsed: true,
           items: [
+            "keymaps/input-processors/usage",
             "keymaps/input-processors/scaler",
             "keymaps/input-processors/transformer",
             "keymaps/input-processors/code-mapper",
@@ -160,6 +161,7 @@ module.exports = {
           collapsed: true,
           items: [
             "development/contributing/clean-room",
+            "development/contributing/commit-messages",
             "development/contributing/documentation",
           ],
         },

@@ -111,7 +111,7 @@ The following will send a left mouse movement event to the host when pressed/hel
 
 ### Input Processors
 
-If you want to apply any [input processors](../input-processors/index.md#input-processors-overview) to `&mkp` you can do so by referencing `&mmv_input_listener`, e.g.:
+If you want to apply any [input processors](../input-processors/index.md#input-processors-overview) to `&mmv` you can do so by referencing `&mmv_input_listener`, e.g.:
 
 ```dts
 &mmv_input_listener {
@@ -153,7 +153,7 @@ The following will send a scroll left event to the host when pressed/held:
 
 ### Input Processors
 
-If you want to apply any [input processors](../input-processors/index.md#input-processors-overview) to `&mkp` you can do so by referencing `&msc_input_listener`, e.g.:
+If you want to apply any [input processors](../input-processors/index.md#input-processors-overview) to `&msc` you can do so by referencing `&msc_input_listener`, e.g.:
 
 ```dts
 &msc_input_listener {
